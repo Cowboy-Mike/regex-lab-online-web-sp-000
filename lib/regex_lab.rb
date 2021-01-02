@@ -20,7 +20,8 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
   if text.scan(/^[A-Z].*\.$/) == nil
     return false
-  else return true
+  else 
+    return true
   end
 
 end
