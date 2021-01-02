@@ -10,7 +10,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   list = text.scan(/un+\w\b/)
-  text.scan(/\w+ing)
+  list << text.scan(/\w+ing/)
 end
 
 def words_five_letters_long(text)
